@@ -1,0 +1,23 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "Harsha",
+  "password": "123456",
+  "name": "chandra_Harsha",
+  "gender": "male"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+###
+GET http://localhost:3000/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIzMTI0NzgzfQ.xZAOJIIimpi2UiKA9teoCjqesa74AGbxKBx9zhyFZcQ
